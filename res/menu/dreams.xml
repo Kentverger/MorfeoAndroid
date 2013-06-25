@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/search">
+    </item>
+    <item
+        android:id="@+id/new_dream"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/new_dream"
+        android:titleCondensed="@string/new_string">
+    </item>
+
+</menu>

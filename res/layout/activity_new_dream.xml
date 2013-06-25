@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".NewDreamActivity" >
+
+    <TextView
+        android:id="@+id/dreamTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/write_your_dream"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/dream_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/dreamBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_tag"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/tags_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/scope_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/public_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/public_dream" />
+
+        <RadioButton
+            android:id="@+id/anon_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/anon" />
+
+        <RadioButton
+            android:id="@+id/private_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/private_dream" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/send_dream"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send" />
+
+</LinearLayout>

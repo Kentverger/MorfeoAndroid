@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mofeo</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="private_dream">Privado</string>
+    <string name="public_dream">Público</string>
+    <string name="anon">Anónimo</string>
+    <string name="write_your_dream">Escribe tu sueño</string>
+    <string name="select_tag">Etiqueta tu sueño</string>
+    <string name="send">Enviar</string>
+    <string name="dream_user">Username</string>
+    <string name="test_dream">Estaba en mi colonia, estrañamente habia obtenido una certificacion para volar, era sencillo volar, tenia una espacie de playera especial con dos alas que movia a voluntad, recuerdo el vertigo al iniciar el vuelo, tambien tenia que tener cuidado de los cables de luz por que siempre me enredaba en ellos.</string>
+    <string name="test_likes">24,000 likes</string>
+    <string name="title_activity_dreams">Mis sueños</string>
+    <string name="new_dream">Nuevo sueño</string>
+    <string name="new_string">Nuevo</string>
+    <string name="search">Buscar</string>
+    <string name="title_activity_sign_in">Registrarse</string>
+    <string name="user_label">Nombre de usuario</string>
+    <string name="mail_label">Correo Electrónico</string>
+    <string name="password_label">Contraseña</string>
+    <string name="password_confirmation_label">Confirmación de contraseña</string>
+    <string name="sign_in_label">Registrarse</string>
+
+</resources>
